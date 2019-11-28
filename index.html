@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>STI FINAL</title>
+    <link rel="stylesheet" href="/Styles/style-main.css">
+</head>
+<body>
+
+        <!-- PANTALLA DE BIENVENIDA-->
+
+    <div class="p-bienvenida">
+
+        <div class="p-bienvenida-iz">
+            <h3>Sistema de recomendación</h3>
+            <h1>MATERIAS</h1>
+            <img src="/Src/logo-icesi 1.png" alt="">
+        </div>
+
+        <div class="p-bienvenida-der">
+            <button class="btn-conquien">¿Con quién puedo matricular?</button>
+            <button class="btn-conquienesM">¿Con quiénes puedo matricular y qué materia</button>
+            <button class="btn-materia">¿Qué materia puedo matricular?</button>
+            <button class="btn-recomendarM">¿A quién le puedo recomendar una materia?</button>
+            <button class="btn-materiaAmig">Materia para tus amigos según tus gustos</button>           
+            <button class="btn-grupoAmig">Grupo de amigos = Grupo de materias</button>           
+            <button class="btn-">Pendiente</button>
+
+        </div>
+
+    </div>
+
+    <!-- PANTALLA DE CON QUIEN MATRICULAR-->
+    <div class="p-quienmatricular">
+        <div class="p-quienmatricular-iz">
+            <h3>¿Con quién puedo matricular?</h3>
+
+            <div>
+                <h2>Recomendar a:</h2>
+                <select name="personas" id="personas-mat">
+                    <option value="0">¿Quién eres?</option>
+                    <option value="1">María del Mar Martinez</option>
+                </select>
+            </div>
+
+            <div>
+                    <h2>Número de personas:</h2>
+                    <input type="number" min="0" max="24">
+                </div>
+
+                <img src="/Src/mar.png" alt="">
+                <h1>María del Mar Martinez</h1>
+
+                <button class="btn-recomendar-quien">Recomendar</button>
+
+        </div>
+
+        <div class="p-quienmatricular-der">
+            <h1>Recomendados:</h1>
+
+            <div class="contenedor-vertical-mat">
+            <div class="renglon-persona">
+                <img src="/Src/mar.png" alt="">
+                <div>
+                    <h3>Valentina Chavez</h3>
+                    <h1>82%</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---->
+
+     <!-- PANTALLA DE CON QUIENES Y QUE MATERIA MATRICULAR-->
+     <div class="p-quienes-materia">
+            <div class="p-quienes-materia-iz">
+                <h3>¿Con quién puedo matricular y qué materia?</h3>
+    
+                <div>
+                    <h2>Recomendar a:</h2>
+                    <select name="personas" id="personas-mat">
+                        <option value="0">¿Quién eres?</option>
+                        <option value="1">María del Mar Martinez</option>
+                    </select>
+                </div>
+    
+                <div>
+                        <h2>Número de personas:</h2>
+                        <input type="number" min="0" max="24">
+                    </div>
+    
+                    <img src="/Src/mar.png" alt="">
+                    <h1>María del Mar Martinez</h1>
+    
+                    <button class="btn-recomendar-quien">Recomendar</button>
+    
+            </div>
+    
+            <div class="p-quienes-materia-der">
+                <h1>Recomendados:</h1>
+    
+                <div class="contenedor-horizontal">
+                <div class="renglon-persona">
+                    <img src="/Src/mar.png" alt="">
+                    <div>
+                        <h3>Valentina Chavez</h3>
+                        <h1>82%</h1>
+                    </div>
+                </div>
+                
+            </div>
+
+            
+
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                    <h2>Número de materias:</h2>
+                    <input type="number" min="0" max="99">
+                </div>
+
+                <div class="contenedor-vertical">
+                    <div class="renglon-materia">
+                        <h3>Inteligencia artificial y sociedad</h3>
+                        <h3>(Impactos riesgos y desafios: ciencia tecnologia y sociedad)</h3>
+                    </div>
+                    
+
+                </div>
+
+
+    
+            </div>
+    
+        </div>
+
+             <!-- PANTALLA DE QUE MATERIA PUEDO MATRICULAR-->
+     <div class="p-que-materia">
+            <div class="p-que-materia-iz">
+                <h3>¿Qué materia puedo matricular?</h3>
+    
+                <div>
+                    <h2>Recomendar a:</h2>
+                    <select name="personas" id="personas-mat">
+                        <option value="0">¿Quién eres?</option>
+                        <option value="1">María del Mar Martinez</option>
+                    </select>
+                </div>
+    
+                <div>
+                        <h2>Número de materias:</h2>
+                        <input type="number" min="0" max="24">
+                    </div>
+    
+                    <img src="/Src/mar.png" alt="">
+                    <h1>María del Mar Martinez</h1>
+    
+                    <button class="btn-recomendar-quien">Recomendar</button>
+    
+            </div>
+    
+            <div class="p-que-materia-der">
+                <h1>Recomendados:</h1>
+    
+            
+                <div class="contenedor-vertical-mat-matri">
+                    <div class="renglon-materia">
+                        <h3>Inteligencia artificial y sociedad</h3>
+                        <h3>(Impactos riesgos y desafios: ciencia tecnologia y sociedad)</h3>
+                    </div>    
+                </div>
+            </div>    
+        </div>
+
+
+            <!-- PANTALLA DE A QUIEN LE PUEDO RECOMENDAR UNA MATERIA-->
+    <div class="p-recomendar-materia">
+            <div class="p-recomendar-materia-iz">
+                <h3>¿A quién le puedo recomendar una materia?</h3>
+    
+                <div>
+                    <h2>Seleccionar materia:</h2>
+                    <select name="personas" id="personas-mat">
+                        <option value="0">Materia</option>
+                        <option value="1">Cuenca del rio Pance</option>
+                    </select>
+                </div>
+    
+    
+                    <button class="btn-recomendar-quien">Recomendar</button>
+    
+            </div>
+    
+            <div class="p-recomendar-materia-der">
+                <h1>Recomendados:</h1>
+    
+                <div class="contenedor-vertical-mat">
+                <div class="renglon-persona">
+                    <img src="/Src/mar.png" alt="">
+                    <div>
+                        <h3>Valentina Chavez</h3>
+                        <h1>82%</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+         <!-- PANTALLA DE MATERIA PARA TUS AMIGOS SEGUN TUS GUSTOS-->
+     <div class="p-materias-para-amigos">
+            <div class="p-materias-para-amigos-iz">
+                <h3>Materias para tus amigos segun tus gustos</h3>
+    
+                <div>
+                    <h2>Selecciona una persona:</h2>
+                    <select name="personas" id="personas-mat">
+                        <option value="0">¿Quién eres?</option>
+                        <option value="1">María del Mar Martinez</option>
+                    </select>
+                </div>
+    
+                
+                    <img src="/Src/mar.png" alt="">
+                    <h1>María del Mar Martinez</h1>
+    
+                    <button class="btn-recomendar-quien">Recomendar</button>
+    
+            </div>
+    
+            <div class="p-materias-para-amigos-der">
+                <h1>Recomendado para ti:</h1>
+
+                <div class="renglon-materia">
+                        <h3>Inteligencia artificial y sociedad</h3>
+                        <h3>(Impactos riesgos y desafios: ciencia tecnologia y sociedad)</h3>
+                    </div>  
+    
+                    <h1>Recomendado para tus amigos:</h1>
+
+                    <div class="contenedor-vertical-tus-amigos">
+                            <div class="renglon-materia">
+                                <h3>Inteligencia artificial y sociedad</h3>
+                                <h3>(Impactos riesgos y desafios: ciencia tecnologia y sociedad)</h3>
+                            </div>        
+                            <div class="renglon-materia">
+                                    <h3>Inteligencia artificial y sociedad</h3>
+                                    <h3>(Impactos riesgos y desafios: ciencia tecnologia y sociedad)</h3>
+                                </div>   
+                                <div class="renglon-materia">
+                                        <h3>Inteligencia artificial y sociedad</h3>
+                                        <h3>(Impactos riesgos y desafios: ciencia tecnologia y sociedad)</h3>
+                                    </div>             
+                        </div>
+
+                        <h1>Amigos:</h1>
+
+                <div class="contenedor-horizontal-tus-amigos">
+                <div class="renglon-persona">
+                    <img src="/Src/mar.png" alt="">
+                    <div>
+                        <h3>Valentina Chavez</h3>
+                        <h1>82%</h1>
+                    </div>
+                </div>
+                <div class="renglon-persona">
+                        <img src="/Src/mar.png" alt="">
+                        <div>
+                            <h3>Valentina Chavez</h3>
+                            <h1>82%</h1>
+                        </div>
+                    </div>
+                    <div class="renglon-persona">
+                            <img src="/Src/mar.png" alt="">
+                            <div>
+                                <h3>Valentina Chavez</h3>
+                                <h1>82%</h1>
+                            </div>
+                        </div>
+                        
+                
+            </div>       
+            
+
+              
+            </div>    
+        </div>
+
+         <!-- PANTALLA DE GRUPO DE AMIGOS = GRUPO DE MATERIAS-->
+     <div class="p-grupo-amigos-materias">
+            <div class="p-grupo-amigos-materias-iz">
+                <h3>Grupo de amigos = Grupo de materias</h3>
+
+                    
+                <div>
+                    <h2>Selecciona una persona:</h2>
+                    <select name="personas" id="personas-mat">
+                        <option value="0">¿Quién eres?</option>
+                        <option value="1">María del Mar Martinez</option>
+                    </select>
+                </div>
+    
+                
+                    <img src="/Src/mar.png" alt="">
+                    <h1>María del Mar Martinez</h1>
+    
+                    <button class="btn-recomendar-quien">Recomendar</button>
+    
+            </div>
+    
+            <div class="p-grupo-amigos-materias-der">
+                <h1>Grupo de amigos parecidos a ti:</h1>
+
+                <div class="contenedor-horizontal-grupo-amigos-materias">
+                        <div class="renglon-persona">
+                            <img src="/Src/mar.png" alt="">
+                            <div>
+                                <h3>Valentina Chavez</h3>
+                                <h1>82%</h1>
+                            </div>
+                        </div>
+                        <div class="renglon-persona">
+                                <img src="/Src/mar.png" alt="">
+                                <div>
+                                    <h3>Valentina Chavez</h3>
+                                    <h1>82%</h1>
+                                </div>
+                            </div>
+                            <div class="renglon-persona">
+                                    <img src="/Src/mar.png" alt="">
+                                    <div>
+                                        <h3>Valentina Chavez</h3>
+                                        <h1>82%</h1>
+                                    </div>
+                                </div>
+                                
+                        
+                    </div>     
+    
+                    <h1>Puedes ver estas materias con tu grupo de amigos:</h1>
+
+                    <div class="contenedor-vertical-grupo-amigos-materias">
+                            <div class="renglon-materia">
+                                <h3>Inteligencia artificial y sociedad</h3>
+                                <h3>(Impactos riesgos y desafios: ciencia tecnologia y sociedad)</h3>
+                            </div>        
+                            <div class="renglon-materia">
+                                    <h3>Inteligencia artificial y sociedad</h3>
+                                    <h3>(Impactos riesgos y desafios: ciencia tecnologia y sociedad)</h3>
+                                </div>   
+                                <div class="renglon-materia">
+                                        <h3>Inteligencia artificial y sociedad</h3>
+                                        <h3>(Impactos riesgos y desafios: ciencia tecnologia y sociedad)</h3>
+                                    </div>             
+                        </div>
+
+                              
+            </div>    
+        </div>
+
+
+
+    <img class="btn-home" src="/Src/home-icon.png" alt="Home">
+</body>
+
+
+
+<script src="/Scripts/main.js"></script>
+</html>

@@ -1,0 +1,569 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+}
+
+.btn-home {
+  display: block;
+  position: fixed;
+  z-index: 999;
+  width: 70px;
+  height: 70px;
+  left: 20px;
+  bottom: 20px;
+}
+
+.btn-home:hover {
+  cursor: pointer;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.p-bienvenida {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 100%;
+}
+
+.p-bienvenida-iz {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url("/Src/Group 25.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.p-bienvenida-iz h3 {
+  font-size: 200%;
+  margin-bottom: 0;
+}
+
+.p-bienvenida-iz h1 {
+  font-weight: bold;
+  font-size: 600%;
+  margin-top: 0;
+}
+
+.p-bienvenida-der {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.p-bienvenida-der button {
+  width: 700px;
+  height: 80px;
+  border-radius: 5px;
+  background: #75D3D3;
+  -webkit-box-shadow: 0px 2px 5px;
+          box-shadow: 0px 2px 5px;
+  border: none;
+  margin: 20px;
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+.p-bienvenida-der button:hover {
+  cursor: pointer;
+  background: #5dbdbd;
+  -webkit-box-shadow: 0px 5px 5px;
+          box-shadow: 0px 5px 5px;
+}
+
+.p-quienmatricular, .p-quienes-materia, .p-que-materia, .p-recomendar-materia, .p-materias-para-amigos, .p-grupo-amigos-materias {
+  display: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 100%;
+}
+
+.p-quienmatricular .p-quienmatricular-iz, .p-quienmatricular .p-quienes-materia-iz, .p-quienmatricular .p-que-materia-iz, .p-quienmatricular .p-recomendar-materia-iz, .p-quienmatricular .p-materias-para-amigos-iz, .p-quienmatricular .p-grupo-amigos-materias-iz, .p-quienes-materia .p-quienmatricular-iz, .p-quienes-materia .p-quienes-materia-iz, .p-quienes-materia .p-que-materia-iz, .p-quienes-materia .p-recomendar-materia-iz, .p-quienes-materia .p-materias-para-amigos-iz, .p-quienes-materia .p-grupo-amigos-materias-iz, .p-que-materia .p-quienmatricular-iz, .p-que-materia .p-quienes-materia-iz, .p-que-materia .p-que-materia-iz, .p-que-materia .p-recomendar-materia-iz, .p-que-materia .p-materias-para-amigos-iz, .p-que-materia .p-grupo-amigos-materias-iz, .p-recomendar-materia .p-quienmatricular-iz, .p-recomendar-materia .p-quienes-materia-iz, .p-recomendar-materia .p-que-materia-iz, .p-recomendar-materia .p-recomendar-materia-iz, .p-recomendar-materia .p-materias-para-amigos-iz, .p-recomendar-materia .p-grupo-amigos-materias-iz, .p-materias-para-amigos .p-quienmatricular-iz, .p-materias-para-amigos .p-quienes-materia-iz, .p-materias-para-amigos .p-que-materia-iz, .p-materias-para-amigos .p-recomendar-materia-iz, .p-materias-para-amigos .p-materias-para-amigos-iz, .p-materias-para-amigos .p-grupo-amigos-materias-iz, .p-grupo-amigos-materias .p-quienmatricular-iz, .p-grupo-amigos-materias .p-quienes-materia-iz, .p-grupo-amigos-materias .p-que-materia-iz, .p-grupo-amigos-materias .p-recomendar-materia-iz, .p-grupo-amigos-materias .p-materias-para-amigos-iz, .p-grupo-amigos-materias .p-grupo-amigos-materias-iz {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #425150;
+  width: 50%;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.p-quienmatricular .p-quienmatricular-iz h3, .p-quienmatricular .p-quienes-materia-iz h3, .p-quienmatricular .p-que-materia-iz h3, .p-quienmatricular .p-recomendar-materia-iz h3, .p-quienmatricular .p-materias-para-amigos-iz h3, .p-quienmatricular .p-grupo-amigos-materias-iz h3, .p-quienes-materia .p-quienmatricular-iz h3, .p-quienes-materia .p-quienes-materia-iz h3, .p-quienes-materia .p-que-materia-iz h3, .p-quienes-materia .p-recomendar-materia-iz h3, .p-quienes-materia .p-materias-para-amigos-iz h3, .p-quienes-materia .p-grupo-amigos-materias-iz h3, .p-que-materia .p-quienmatricular-iz h3, .p-que-materia .p-quienes-materia-iz h3, .p-que-materia .p-que-materia-iz h3, .p-que-materia .p-recomendar-materia-iz h3, .p-que-materia .p-materias-para-amigos-iz h3, .p-que-materia .p-grupo-amigos-materias-iz h3, .p-recomendar-materia .p-quienmatricular-iz h3, .p-recomendar-materia .p-quienes-materia-iz h3, .p-recomendar-materia .p-que-materia-iz h3, .p-recomendar-materia .p-recomendar-materia-iz h3, .p-recomendar-materia .p-materias-para-amigos-iz h3, .p-recomendar-materia .p-grupo-amigos-materias-iz h3, .p-materias-para-amigos .p-quienmatricular-iz h3, .p-materias-para-amigos .p-quienes-materia-iz h3, .p-materias-para-amigos .p-que-materia-iz h3, .p-materias-para-amigos .p-recomendar-materia-iz h3, .p-materias-para-amigos .p-materias-para-amigos-iz h3, .p-materias-para-amigos .p-grupo-amigos-materias-iz h3, .p-grupo-amigos-materias .p-quienmatricular-iz h3, .p-grupo-amigos-materias .p-quienes-materia-iz h3, .p-grupo-amigos-materias .p-que-materia-iz h3, .p-grupo-amigos-materias .p-recomendar-materia-iz h3, .p-grupo-amigos-materias .p-materias-para-amigos-iz h3, .p-grupo-amigos-materias .p-grupo-amigos-materias-iz h3 {
+  font-weight: lighter;
+}
+
+.p-quienmatricular .p-quienmatricular-iz h2, .p-quienmatricular .p-quienes-materia-iz h2, .p-quienmatricular .p-que-materia-iz h2, .p-quienmatricular .p-recomendar-materia-iz h2, .p-quienmatricular .p-materias-para-amigos-iz h2, .p-quienmatricular .p-grupo-amigos-materias-iz h2, .p-quienes-materia .p-quienmatricular-iz h2, .p-quienes-materia .p-quienes-materia-iz h2, .p-quienes-materia .p-que-materia-iz h2, .p-quienes-materia .p-recomendar-materia-iz h2, .p-quienes-materia .p-materias-para-amigos-iz h2, .p-quienes-materia .p-grupo-amigos-materias-iz h2, .p-que-materia .p-quienmatricular-iz h2, .p-que-materia .p-quienes-materia-iz h2, .p-que-materia .p-que-materia-iz h2, .p-que-materia .p-recomendar-materia-iz h2, .p-que-materia .p-materias-para-amigos-iz h2, .p-que-materia .p-grupo-amigos-materias-iz h2, .p-recomendar-materia .p-quienmatricular-iz h2, .p-recomendar-materia .p-quienes-materia-iz h2, .p-recomendar-materia .p-que-materia-iz h2, .p-recomendar-materia .p-recomendar-materia-iz h2, .p-recomendar-materia .p-materias-para-amigos-iz h2, .p-recomendar-materia .p-grupo-amigos-materias-iz h2, .p-materias-para-amigos .p-quienmatricular-iz h2, .p-materias-para-amigos .p-quienes-materia-iz h2, .p-materias-para-amigos .p-que-materia-iz h2, .p-materias-para-amigos .p-recomendar-materia-iz h2, .p-materias-para-amigos .p-materias-para-amigos-iz h2, .p-materias-para-amigos .p-grupo-amigos-materias-iz h2, .p-grupo-amigos-materias .p-quienmatricular-iz h2, .p-grupo-amigos-materias .p-quienes-materia-iz h2, .p-grupo-amigos-materias .p-que-materia-iz h2, .p-grupo-amigos-materias .p-recomendar-materia-iz h2, .p-grupo-amigos-materias .p-materias-para-amigos-iz h2, .p-grupo-amigos-materias .p-grupo-amigos-materias-iz h2 {
+  margin-bottom: 0;
+  margin-top: 40px;
+  font-size: 95%;
+}
+
+.p-quienmatricular .p-quienmatricular-iz input, .p-quienmatricular .p-quienmatricular-iz select, .p-quienmatricular .p-quienes-materia-iz input, .p-quienmatricular .p-quienes-materia-iz select, .p-quienmatricular .p-que-materia-iz input, .p-quienmatricular .p-que-materia-iz select, .p-quienmatricular .p-recomendar-materia-iz input, .p-quienmatricular .p-recomendar-materia-iz select, .p-quienmatricular .p-materias-para-amigos-iz input, .p-quienmatricular .p-materias-para-amigos-iz select, .p-quienmatricular .p-grupo-amigos-materias-iz input, .p-quienmatricular .p-grupo-amigos-materias-iz select, .p-quienes-materia .p-quienmatricular-iz input, .p-quienes-materia .p-quienmatricular-iz select, .p-quienes-materia .p-quienes-materia-iz input, .p-quienes-materia .p-quienes-materia-iz select, .p-quienes-materia .p-que-materia-iz input, .p-quienes-materia .p-que-materia-iz select, .p-quienes-materia .p-recomendar-materia-iz input, .p-quienes-materia .p-recomendar-materia-iz select, .p-quienes-materia .p-materias-para-amigos-iz input, .p-quienes-materia .p-materias-para-amigos-iz select, .p-quienes-materia .p-grupo-amigos-materias-iz input, .p-quienes-materia .p-grupo-amigos-materias-iz select, .p-que-materia .p-quienmatricular-iz input, .p-que-materia .p-quienmatricular-iz select, .p-que-materia .p-quienes-materia-iz input, .p-que-materia .p-quienes-materia-iz select, .p-que-materia .p-que-materia-iz input, .p-que-materia .p-que-materia-iz select, .p-que-materia .p-recomendar-materia-iz input, .p-que-materia .p-recomendar-materia-iz select, .p-que-materia .p-materias-para-amigos-iz input, .p-que-materia .p-materias-para-amigos-iz select, .p-que-materia .p-grupo-amigos-materias-iz input, .p-que-materia .p-grupo-amigos-materias-iz select, .p-recomendar-materia .p-quienmatricular-iz input, .p-recomendar-materia .p-quienmatricular-iz select, .p-recomendar-materia .p-quienes-materia-iz input, .p-recomendar-materia .p-quienes-materia-iz select, .p-recomendar-materia .p-que-materia-iz input, .p-recomendar-materia .p-que-materia-iz select, .p-recomendar-materia .p-recomendar-materia-iz input, .p-recomendar-materia .p-recomendar-materia-iz select, .p-recomendar-materia .p-materias-para-amigos-iz input, .p-recomendar-materia .p-materias-para-amigos-iz select, .p-recomendar-materia .p-grupo-amigos-materias-iz input, .p-recomendar-materia .p-grupo-amigos-materias-iz select, .p-materias-para-amigos .p-quienmatricular-iz input, .p-materias-para-amigos .p-quienmatricular-iz select, .p-materias-para-amigos .p-quienes-materia-iz input, .p-materias-para-amigos .p-quienes-materia-iz select, .p-materias-para-amigos .p-que-materia-iz input, .p-materias-para-amigos .p-que-materia-iz select, .p-materias-para-amigos .p-recomendar-materia-iz input, .p-materias-para-amigos .p-recomendar-materia-iz select, .p-materias-para-amigos .p-materias-para-amigos-iz input, .p-materias-para-amigos .p-materias-para-amigos-iz select, .p-materias-para-amigos .p-grupo-amigos-materias-iz input, .p-materias-para-amigos .p-grupo-amigos-materias-iz select, .p-grupo-amigos-materias .p-quienmatricular-iz input, .p-grupo-amigos-materias .p-quienmatricular-iz select, .p-grupo-amigos-materias .p-quienes-materia-iz input, .p-grupo-amigos-materias .p-quienes-materia-iz select, .p-grupo-amigos-materias .p-que-materia-iz input, .p-grupo-amigos-materias .p-que-materia-iz select, .p-grupo-amigos-materias .p-recomendar-materia-iz input, .p-grupo-amigos-materias .p-recomendar-materia-iz select, .p-grupo-amigos-materias .p-materias-para-amigos-iz input, .p-grupo-amigos-materias .p-materias-para-amigos-iz select, .p-grupo-amigos-materias .p-grupo-amigos-materias-iz input, .p-grupo-amigos-materias .p-grupo-amigos-materias-iz select {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 14pt;
+  padding-left: 8px;
+  margin-top: 0;
+}
+
+.p-quienmatricular .p-quienmatricular-iz select, .p-quienmatricular .p-quienes-materia-iz select, .p-quienmatricular .p-que-materia-iz select, .p-quienmatricular .p-recomendar-materia-iz select, .p-quienmatricular .p-materias-para-amigos-iz select, .p-quienmatricular .p-grupo-amigos-materias-iz select, .p-quienes-materia .p-quienmatricular-iz select, .p-quienes-materia .p-quienes-materia-iz select, .p-quienes-materia .p-que-materia-iz select, .p-quienes-materia .p-recomendar-materia-iz select, .p-quienes-materia .p-materias-para-amigos-iz select, .p-quienes-materia .p-grupo-amigos-materias-iz select, .p-que-materia .p-quienmatricular-iz select, .p-que-materia .p-quienes-materia-iz select, .p-que-materia .p-que-materia-iz select, .p-que-materia .p-recomendar-materia-iz select, .p-que-materia .p-materias-para-amigos-iz select, .p-que-materia .p-grupo-amigos-materias-iz select, .p-recomendar-materia .p-quienmatricular-iz select, .p-recomendar-materia .p-quienes-materia-iz select, .p-recomendar-materia .p-que-materia-iz select, .p-recomendar-materia .p-recomendar-materia-iz select, .p-recomendar-materia .p-materias-para-amigos-iz select, .p-recomendar-materia .p-grupo-amigos-materias-iz select, .p-materias-para-amigos .p-quienmatricular-iz select, .p-materias-para-amigos .p-quienes-materia-iz select, .p-materias-para-amigos .p-que-materia-iz select, .p-materias-para-amigos .p-recomendar-materia-iz select, .p-materias-para-amigos .p-materias-para-amigos-iz select, .p-materias-para-amigos .p-grupo-amigos-materias-iz select, .p-grupo-amigos-materias .p-quienmatricular-iz select, .p-grupo-amigos-materias .p-quienes-materia-iz select, .p-grupo-amigos-materias .p-que-materia-iz select, .p-grupo-amigos-materias .p-recomendar-materia-iz select, .p-grupo-amigos-materias .p-materias-para-amigos-iz select, .p-grupo-amigos-materias .p-grupo-amigos-materias-iz select {
+  width: 310px;
+  height: 35px;
+}
+
+.p-quienmatricular .p-quienmatricular-iz img, .p-quienmatricular .p-quienes-materia-iz img, .p-quienmatricular .p-que-materia-iz img, .p-quienmatricular .p-recomendar-materia-iz img, .p-quienmatricular .p-materias-para-amigos-iz img, .p-quienmatricular .p-grupo-amigos-materias-iz img, .p-quienes-materia .p-quienmatricular-iz img, .p-quienes-materia .p-quienes-materia-iz img, .p-quienes-materia .p-que-materia-iz img, .p-quienes-materia .p-recomendar-materia-iz img, .p-quienes-materia .p-materias-para-amigos-iz img, .p-quienes-materia .p-grupo-amigos-materias-iz img, .p-que-materia .p-quienmatricular-iz img, .p-que-materia .p-quienes-materia-iz img, .p-que-materia .p-que-materia-iz img, .p-que-materia .p-recomendar-materia-iz img, .p-que-materia .p-materias-para-amigos-iz img, .p-que-materia .p-grupo-amigos-materias-iz img, .p-recomendar-materia .p-quienmatricular-iz img, .p-recomendar-materia .p-quienes-materia-iz img, .p-recomendar-materia .p-que-materia-iz img, .p-recomendar-materia .p-recomendar-materia-iz img, .p-recomendar-materia .p-materias-para-amigos-iz img, .p-recomendar-materia .p-grupo-amigos-materias-iz img, .p-materias-para-amigos .p-quienmatricular-iz img, .p-materias-para-amigos .p-quienes-materia-iz img, .p-materias-para-amigos .p-que-materia-iz img, .p-materias-para-amigos .p-recomendar-materia-iz img, .p-materias-para-amigos .p-materias-para-amigos-iz img, .p-materias-para-amigos .p-grupo-amigos-materias-iz img, .p-grupo-amigos-materias .p-quienmatricular-iz img, .p-grupo-amigos-materias .p-quienes-materia-iz img, .p-grupo-amigos-materias .p-que-materia-iz img, .p-grupo-amigos-materias .p-recomendar-materia-iz img, .p-grupo-amigos-materias .p-materias-para-amigos-iz img, .p-grupo-amigos-materias .p-grupo-amigos-materias-iz img {
+  margin-top: 70px;
+  width: 200px;
+}
+
+.p-quienmatricular .p-quienmatricular-iz button, .p-quienmatricular .p-quienes-materia-iz button, .p-quienmatricular .p-que-materia-iz button, .p-quienmatricular .p-recomendar-materia-iz button, .p-quienmatricular .p-materias-para-amigos-iz button, .p-quienmatricular .p-grupo-amigos-materias-iz button, .p-quienes-materia .p-quienmatricular-iz button, .p-quienes-materia .p-quienes-materia-iz button, .p-quienes-materia .p-que-materia-iz button, .p-quienes-materia .p-recomendar-materia-iz button, .p-quienes-materia .p-materias-para-amigos-iz button, .p-quienes-materia .p-grupo-amigos-materias-iz button, .p-que-materia .p-quienmatricular-iz button, .p-que-materia .p-quienes-materia-iz button, .p-que-materia .p-que-materia-iz button, .p-que-materia .p-recomendar-materia-iz button, .p-que-materia .p-materias-para-amigos-iz button, .p-que-materia .p-grupo-amigos-materias-iz button, .p-recomendar-materia .p-quienmatricular-iz button, .p-recomendar-materia .p-quienes-materia-iz button, .p-recomendar-materia .p-que-materia-iz button, .p-recomendar-materia .p-recomendar-materia-iz button, .p-recomendar-materia .p-materias-para-amigos-iz button, .p-recomendar-materia .p-grupo-amigos-materias-iz button, .p-materias-para-amigos .p-quienmatricular-iz button, .p-materias-para-amigos .p-quienes-materia-iz button, .p-materias-para-amigos .p-que-materia-iz button, .p-materias-para-amigos .p-recomendar-materia-iz button, .p-materias-para-amigos .p-materias-para-amigos-iz button, .p-materias-para-amigos .p-grupo-amigos-materias-iz button, .p-grupo-amigos-materias .p-quienmatricular-iz button, .p-grupo-amigos-materias .p-quienes-materia-iz button, .p-grupo-amigos-materias .p-que-materia-iz button, .p-grupo-amigos-materias .p-recomendar-materia-iz button, .p-grupo-amigos-materias .p-materias-para-amigos-iz button, .p-grupo-amigos-materias .p-grupo-amigos-materias-iz button {
+  width: 300px;
+  height: 80px;
+  border-radius: 5px;
+  background: #75D3D3;
+  -webkit-box-shadow: 0px 2px 5px;
+          box-shadow: 0px 2px 5px;
+  border: none;
+  margin: 20px;
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+.p-quienmatricular .p-quienmatricular-iz button:hover, .p-quienmatricular .p-quienes-materia-iz button:hover, .p-quienmatricular .p-que-materia-iz button:hover, .p-quienmatricular .p-recomendar-materia-iz button:hover, .p-quienmatricular .p-materias-para-amigos-iz button:hover, .p-quienmatricular .p-grupo-amigos-materias-iz button:hover, .p-quienes-materia .p-quienmatricular-iz button:hover, .p-quienes-materia .p-quienes-materia-iz button:hover, .p-quienes-materia .p-que-materia-iz button:hover, .p-quienes-materia .p-recomendar-materia-iz button:hover, .p-quienes-materia .p-materias-para-amigos-iz button:hover, .p-quienes-materia .p-grupo-amigos-materias-iz button:hover, .p-que-materia .p-quienmatricular-iz button:hover, .p-que-materia .p-quienes-materia-iz button:hover, .p-que-materia .p-que-materia-iz button:hover, .p-que-materia .p-recomendar-materia-iz button:hover, .p-que-materia .p-materias-para-amigos-iz button:hover, .p-que-materia .p-grupo-amigos-materias-iz button:hover, .p-recomendar-materia .p-quienmatricular-iz button:hover, .p-recomendar-materia .p-quienes-materia-iz button:hover, .p-recomendar-materia .p-que-materia-iz button:hover, .p-recomendar-materia .p-recomendar-materia-iz button:hover, .p-recomendar-materia .p-materias-para-amigos-iz button:hover, .p-recomendar-materia .p-grupo-amigos-materias-iz button:hover, .p-materias-para-amigos .p-quienmatricular-iz button:hover, .p-materias-para-amigos .p-quienes-materia-iz button:hover, .p-materias-para-amigos .p-que-materia-iz button:hover, .p-materias-para-amigos .p-recomendar-materia-iz button:hover, .p-materias-para-amigos .p-materias-para-amigos-iz button:hover, .p-materias-para-amigos .p-grupo-amigos-materias-iz button:hover, .p-grupo-amigos-materias .p-quienmatricular-iz button:hover, .p-grupo-amigos-materias .p-quienes-materia-iz button:hover, .p-grupo-amigos-materias .p-que-materia-iz button:hover, .p-grupo-amigos-materias .p-recomendar-materia-iz button:hover, .p-grupo-amigos-materias .p-materias-para-amigos-iz button:hover, .p-grupo-amigos-materias .p-grupo-amigos-materias-iz button:hover {
+  cursor: pointer;
+  background: #5dbdbd;
+  -webkit-box-shadow: 0px 5px 5px;
+          box-shadow: 0px 5px 5px;
+}
+
+.p-quienmatricular .p-quienmatricular-der, .p-quienmatricular .p-quienes-materia-der, .p-quienmatricular .p-que-materia-der, .p-quienmatricular .p-recomendar-materia-der, .p-quienmatricular .p-materias-para-amigos-der, .p-quienmatricular .p-grupo-amigos-materias-der, .p-quienes-materia .p-quienmatricular-der, .p-quienes-materia .p-quienes-materia-der, .p-quienes-materia .p-que-materia-der, .p-quienes-materia .p-recomendar-materia-der, .p-quienes-materia .p-materias-para-amigos-der, .p-quienes-materia .p-grupo-amigos-materias-der, .p-que-materia .p-quienmatricular-der, .p-que-materia .p-quienes-materia-der, .p-que-materia .p-que-materia-der, .p-que-materia .p-recomendar-materia-der, .p-que-materia .p-materias-para-amigos-der, .p-que-materia .p-grupo-amigos-materias-der, .p-recomendar-materia .p-quienmatricular-der, .p-recomendar-materia .p-quienes-materia-der, .p-recomendar-materia .p-que-materia-der, .p-recomendar-materia .p-recomendar-materia-der, .p-recomendar-materia .p-materias-para-amigos-der, .p-recomendar-materia .p-grupo-amigos-materias-der, .p-materias-para-amigos .p-quienmatricular-der, .p-materias-para-amigos .p-quienes-materia-der, .p-materias-para-amigos .p-que-materia-der, .p-materias-para-amigos .p-recomendar-materia-der, .p-materias-para-amigos .p-materias-para-amigos-der, .p-materias-para-amigos .p-grupo-amigos-materias-der, .p-grupo-amigos-materias .p-quienmatricular-der, .p-grupo-amigos-materias .p-quienes-materia-der, .p-grupo-amigos-materias .p-que-materia-der, .p-grupo-amigos-materias .p-recomendar-materia-der, .p-grupo-amigos-materias .p-materias-para-amigos-der, .p-grupo-amigos-materias .p-grupo-amigos-materias-der {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.p-quienmatricular .p-quienmatricular-der .renglon-persona, .p-quienmatricular .p-quienes-materia-der .renglon-persona, .p-quienmatricular .p-que-materia-der .renglon-persona, .p-quienmatricular .p-recomendar-materia-der .renglon-persona, .p-quienmatricular .p-materias-para-amigos-der .renglon-persona, .p-quienmatricular .p-grupo-amigos-materias-der .renglon-persona, .p-quienes-materia .p-quienmatricular-der .renglon-persona, .p-quienes-materia .p-quienes-materia-der .renglon-persona, .p-quienes-materia .p-que-materia-der .renglon-persona, .p-quienes-materia .p-recomendar-materia-der .renglon-persona, .p-quienes-materia .p-materias-para-amigos-der .renglon-persona, .p-quienes-materia .p-grupo-amigos-materias-der .renglon-persona, .p-que-materia .p-quienmatricular-der .renglon-persona, .p-que-materia .p-quienes-materia-der .renglon-persona, .p-que-materia .p-que-materia-der .renglon-persona, .p-que-materia .p-recomendar-materia-der .renglon-persona, .p-que-materia .p-materias-para-amigos-der .renglon-persona, .p-que-materia .p-grupo-amigos-materias-der .renglon-persona, .p-recomendar-materia .p-quienmatricular-der .renglon-persona, .p-recomendar-materia .p-quienes-materia-der .renglon-persona, .p-recomendar-materia .p-que-materia-der .renglon-persona, .p-recomendar-materia .p-recomendar-materia-der .renglon-persona, .p-recomendar-materia .p-materias-para-amigos-der .renglon-persona, .p-recomendar-materia .p-grupo-amigos-materias-der .renglon-persona, .p-materias-para-amigos .p-quienmatricular-der .renglon-persona, .p-materias-para-amigos .p-quienes-materia-der .renglon-persona, .p-materias-para-amigos .p-que-materia-der .renglon-persona, .p-materias-para-amigos .p-recomendar-materia-der .renglon-persona, .p-materias-para-amigos .p-materias-para-amigos-der .renglon-persona, .p-materias-para-amigos .p-grupo-amigos-materias-der .renglon-persona, .p-grupo-amigos-materias .p-quienmatricular-der .renglon-persona, .p-grupo-amigos-materias .p-quienes-materia-der .renglon-persona, .p-grupo-amigos-materias .p-que-materia-der .renglon-persona, .p-grupo-amigos-materias .p-recomendar-materia-der .renglon-persona, .p-grupo-amigos-materias .p-materias-para-amigos-der .renglon-persona, .p-grupo-amigos-materias .p-grupo-amigos-materias-der .renglon-persona {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #E1F4F4;
+  width: 500px;
+  border-radius: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  margin-bottom: 15px;
+}
+
+.p-quienmatricular .p-quienmatricular-der .renglon-persona img, .p-quienmatricular .p-quienes-materia-der .renglon-persona img, .p-quienmatricular .p-que-materia-der .renglon-persona img, .p-quienmatricular .p-recomendar-materia-der .renglon-persona img, .p-quienmatricular .p-materias-para-amigos-der .renglon-persona img, .p-quienmatricular .p-grupo-amigos-materias-der .renglon-persona img, .p-quienes-materia .p-quienmatricular-der .renglon-persona img, .p-quienes-materia .p-quienes-materia-der .renglon-persona img, .p-quienes-materia .p-que-materia-der .renglon-persona img, .p-quienes-materia .p-recomendar-materia-der .renglon-persona img, .p-quienes-materia .p-materias-para-amigos-der .renglon-persona img, .p-quienes-materia .p-grupo-amigos-materias-der .renglon-persona img, .p-que-materia .p-quienmatricular-der .renglon-persona img, .p-que-materia .p-quienes-materia-der .renglon-persona img, .p-que-materia .p-que-materia-der .renglon-persona img, .p-que-materia .p-recomendar-materia-der .renglon-persona img, .p-que-materia .p-materias-para-amigos-der .renglon-persona img, .p-que-materia .p-grupo-amigos-materias-der .renglon-persona img, .p-recomendar-materia .p-quienmatricular-der .renglon-persona img, .p-recomendar-materia .p-quienes-materia-der .renglon-persona img, .p-recomendar-materia .p-que-materia-der .renglon-persona img, .p-recomendar-materia .p-recomendar-materia-der .renglon-persona img, .p-recomendar-materia .p-materias-para-amigos-der .renglon-persona img, .p-recomendar-materia .p-grupo-amigos-materias-der .renglon-persona img, .p-materias-para-amigos .p-quienmatricular-der .renglon-persona img, .p-materias-para-amigos .p-quienes-materia-der .renglon-persona img, .p-materias-para-amigos .p-que-materia-der .renglon-persona img, .p-materias-para-amigos .p-recomendar-materia-der .renglon-persona img, .p-materias-para-amigos .p-materias-para-amigos-der .renglon-persona img, .p-materias-para-amigos .p-grupo-amigos-materias-der .renglon-persona img, .p-grupo-amigos-materias .p-quienmatricular-der .renglon-persona img, .p-grupo-amigos-materias .p-quienes-materia-der .renglon-persona img, .p-grupo-amigos-materias .p-que-materia-der .renglon-persona img, .p-grupo-amigos-materias .p-recomendar-materia-der .renglon-persona img, .p-grupo-amigos-materias .p-materias-para-amigos-der .renglon-persona img, .p-grupo-amigos-materias .p-grupo-amigos-materias-der .renglon-persona img {
+  width: 80px;
+  height: 80px;
+  margin-right: 80px;
+}
+
+.p-quienmatricular .p-quienmatricular-der .renglon-persona h1, .p-quienmatricular .p-quienes-materia-der .renglon-persona h1, .p-quienmatricular .p-que-materia-der .renglon-persona h1, .p-quienmatricular .p-recomendar-materia-der .renglon-persona h1, .p-quienmatricular .p-materias-para-amigos-der .renglon-persona h1, .p-quienmatricular .p-grupo-amigos-materias-der .renglon-persona h1, .p-quienes-materia .p-quienmatricular-der .renglon-persona h1, .p-quienes-materia .p-quienes-materia-der .renglon-persona h1, .p-quienes-materia .p-que-materia-der .renglon-persona h1, .p-quienes-materia .p-recomendar-materia-der .renglon-persona h1, .p-quienes-materia .p-materias-para-amigos-der .renglon-persona h1, .p-quienes-materia .p-grupo-amigos-materias-der .renglon-persona h1, .p-que-materia .p-quienmatricular-der .renglon-persona h1, .p-que-materia .p-quienes-materia-der .renglon-persona h1, .p-que-materia .p-que-materia-der .renglon-persona h1, .p-que-materia .p-recomendar-materia-der .renglon-persona h1, .p-que-materia .p-materias-para-amigos-der .renglon-persona h1, .p-que-materia .p-grupo-amigos-materias-der .renglon-persona h1, .p-recomendar-materia .p-quienmatricular-der .renglon-persona h1, .p-recomendar-materia .p-quienes-materia-der .renglon-persona h1, .p-recomendar-materia .p-que-materia-der .renglon-persona h1, .p-recomendar-materia .p-recomendar-materia-der .renglon-persona h1, .p-recomendar-materia .p-materias-para-amigos-der .renglon-persona h1, .p-recomendar-materia .p-grupo-amigos-materias-der .renglon-persona h1, .p-materias-para-amigos .p-quienmatricular-der .renglon-persona h1, .p-materias-para-amigos .p-quienes-materia-der .renglon-persona h1, .p-materias-para-amigos .p-que-materia-der .renglon-persona h1, .p-materias-para-amigos .p-recomendar-materia-der .renglon-persona h1, .p-materias-para-amigos .p-materias-para-amigos-der .renglon-persona h1, .p-materias-para-amigos .p-grupo-amigos-materias-der .renglon-persona h1, .p-grupo-amigos-materias .p-quienmatricular-der .renglon-persona h1, .p-grupo-amigos-materias .p-quienes-materia-der .renglon-persona h1, .p-grupo-amigos-materias .p-que-materia-der .renglon-persona h1, .p-grupo-amigos-materias .p-recomendar-materia-der .renglon-persona h1, .p-grupo-amigos-materias .p-materias-para-amigos-der .renglon-persona h1, .p-grupo-amigos-materias .p-grupo-amigos-materias-der .renglon-persona h1 {
+  margin-top: 0;
+}
+
+.p-quienmatricular .p-quienmatricular-der .renglon-persona h3, .p-quienmatricular .p-quienes-materia-der .renglon-persona h3, .p-quienmatricular .p-que-materia-der .renglon-persona h3, .p-quienmatricular .p-recomendar-materia-der .renglon-persona h3, .p-quienmatricular .p-materias-para-amigos-der .renglon-persona h3, .p-quienmatricular .p-grupo-amigos-materias-der .renglon-persona h3, .p-quienes-materia .p-quienmatricular-der .renglon-persona h3, .p-quienes-materia .p-quienes-materia-der .renglon-persona h3, .p-quienes-materia .p-que-materia-der .renglon-persona h3, .p-quienes-materia .p-recomendar-materia-der .renglon-persona h3, .p-quienes-materia .p-materias-para-amigos-der .renglon-persona h3, .p-quienes-materia .p-grupo-amigos-materias-der .renglon-persona h3, .p-que-materia .p-quienmatricular-der .renglon-persona h3, .p-que-materia .p-quienes-materia-der .renglon-persona h3, .p-que-materia .p-que-materia-der .renglon-persona h3, .p-que-materia .p-recomendar-materia-der .renglon-persona h3, .p-que-materia .p-materias-para-amigos-der .renglon-persona h3, .p-que-materia .p-grupo-amigos-materias-der .renglon-persona h3, .p-recomendar-materia .p-quienmatricular-der .renglon-persona h3, .p-recomendar-materia .p-quienes-materia-der .renglon-persona h3, .p-recomendar-materia .p-que-materia-der .renglon-persona h3, .p-recomendar-materia .p-recomendar-materia-der .renglon-persona h3, .p-recomendar-materia .p-materias-para-amigos-der .renglon-persona h3, .p-recomendar-materia .p-grupo-amigos-materias-der .renglon-persona h3, .p-materias-para-amigos .p-quienmatricular-der .renglon-persona h3, .p-materias-para-amigos .p-quienes-materia-der .renglon-persona h3, .p-materias-para-amigos .p-que-materia-der .renglon-persona h3, .p-materias-para-amigos .p-recomendar-materia-der .renglon-persona h3, .p-materias-para-amigos .p-materias-para-amigos-der .renglon-persona h3, .p-materias-para-amigos .p-grupo-amigos-materias-der .renglon-persona h3, .p-grupo-amigos-materias .p-quienmatricular-der .renglon-persona h3, .p-grupo-amigos-materias .p-quienes-materia-der .renglon-persona h3, .p-grupo-amigos-materias .p-que-materia-der .renglon-persona h3, .p-grupo-amigos-materias .p-recomendar-materia-der .renglon-persona h3, .p-grupo-amigos-materias .p-materias-para-amigos-der .renglon-persona h3, .p-grupo-amigos-materias .p-grupo-amigos-materias-der .renglon-persona h3 {
+  margin-bottom: 0;
+}
+
+.p-quienmatricular .p-quienmatricular-der .contenedor-vertical-mat, .p-quienmatricular .p-quienes-materia-der .contenedor-vertical-mat, .p-quienmatricular .p-que-materia-der .contenedor-vertical-mat, .p-quienmatricular .p-recomendar-materia-der .contenedor-vertical-mat, .p-quienmatricular .p-materias-para-amigos-der .contenedor-vertical-mat, .p-quienmatricular .p-grupo-amigos-materias-der .contenedor-vertical-mat, .p-quienes-materia .p-quienmatricular-der .contenedor-vertical-mat, .p-quienes-materia .p-quienes-materia-der .contenedor-vertical-mat, .p-quienes-materia .p-que-materia-der .contenedor-vertical-mat, .p-quienes-materia .p-recomendar-materia-der .contenedor-vertical-mat, .p-quienes-materia .p-materias-para-amigos-der .contenedor-vertical-mat, .p-quienes-materia .p-grupo-amigos-materias-der .contenedor-vertical-mat, .p-que-materia .p-quienmatricular-der .contenedor-vertical-mat, .p-que-materia .p-quienes-materia-der .contenedor-vertical-mat, .p-que-materia .p-que-materia-der .contenedor-vertical-mat, .p-que-materia .p-recomendar-materia-der .contenedor-vertical-mat, .p-que-materia .p-materias-para-amigos-der .contenedor-vertical-mat, .p-que-materia .p-grupo-amigos-materias-der .contenedor-vertical-mat, .p-recomendar-materia .p-quienmatricular-der .contenedor-vertical-mat, .p-recomendar-materia .p-quienes-materia-der .contenedor-vertical-mat, .p-recomendar-materia .p-que-materia-der .contenedor-vertical-mat, .p-recomendar-materia .p-recomendar-materia-der .contenedor-vertical-mat, .p-recomendar-materia .p-materias-para-amigos-der .contenedor-vertical-mat, .p-recomendar-materia .p-grupo-amigos-materias-der .contenedor-vertical-mat, .p-materias-para-amigos .p-quienmatricular-der .contenedor-vertical-mat, .p-materias-para-amigos .p-quienes-materia-der .contenedor-vertical-mat, .p-materias-para-amigos .p-que-materia-der .contenedor-vertical-mat, .p-materias-para-amigos .p-recomendar-materia-der .contenedor-vertical-mat, .p-materias-para-amigos .p-materias-para-amigos-der .contenedor-vertical-mat, .p-materias-para-amigos .p-grupo-amigos-materias-der .contenedor-vertical-mat, .p-grupo-amigos-materias .p-quienmatricular-der .contenedor-vertical-mat, .p-grupo-amigos-materias .p-quienes-materia-der .contenedor-vertical-mat, .p-grupo-amigos-materias .p-que-materia-der .contenedor-vertical-mat, .p-grupo-amigos-materias .p-recomendar-materia-der .contenedor-vertical-mat, .p-grupo-amigos-materias .p-materias-para-amigos-der .contenedor-vertical-mat, .p-grupo-amigos-materias .p-grupo-amigos-materias-der .contenedor-vertical-mat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  height: 800px;
+  overflow-y: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+.p-quienes-materia {
+  display: none;
+}
+
+.p-quienes-materia .p-quienes-materia-iz {
+  width: 35%;
+}
+
+.p-quienes-materia .p-quienes-materia-der {
+  width: 65%;
+}
+
+.p-quienes-materia .p-quienes-materia-der .renglon-persona {
+  width: 300px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.p-quienes-materia .p-quienes-materia-der .renglon-persona img {
+  margin: 0;
+  margin-top: 15px;
+}
+
+.p-quienes-materia .p-quienes-materia-der input {
+  width: 500px;
+  height: 40px;
+  font-size: 14pt;
+  padding-left: 15px;
+  margin-top: 0;
+  background-color: #C1CED1;
+  border: solid white 1px;
+  margin-bottom: 50px;
+}
+
+.p-quienes-materia .p-quienes-materia-der .renglon-materia {
+  background: #E1EBF4;
+  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  padding: 15px 20px 15px 20px;
+  width: 700px;
+  margin-bottom: 15px;
+}
+
+.p-quienes-materia .p-quienes-materia-der .renglon-materia h3 {
+  margin: 0;
+  font-weight: normal;
+}
+
+.p-quienes-materia .contenedor-horizontal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 90%;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.p-quienes-materia .contenedor-vertical {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  height: 350px;
+  overflow-y: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+.p-que-materia {
+  display: none;
+}
+
+.p-que-materia .renglon-materia {
+  background: #E1EBF4;
+  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  padding: 15px 20px 15px 20px;
+  width: 650px;
+  margin-bottom: 15px;
+}
+
+.p-que-materia .renglon-materia h3 {
+  margin: 0;
+  font-weight: normal;
+}
+
+.p-que-materia .contenedor-vertical-mat-matri {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  height: 800px;
+  overflow-y: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+.p-recomendar-materia {
+  display: none;
+}
+
+.p-recomendar-materia .p-recomendar-materia-iz h3 {
+  margin-bottom: 70px;
+}
+
+.p-recomendar-materia .p-recomendar-materia-iz button {
+  margin-top: 100px;
+}
+
+.p-materias-para-amigos {
+  display: none;
+}
+
+.p-materias-para-amigos .p-materias-para-amigos-iz {
+  width: 35%;
+}
+
+.p-materias-para-amigos .p-materias-para-amigos-der {
+  width: 65%;
+}
+
+.p-materias-para-amigos .p-materias-para-amigos-der .renglon-persona {
+  width: 300px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.p-materias-para-amigos .p-materias-para-amigos-der .renglon-persona img {
+  margin: 0;
+  margin-top: 15px;
+}
+
+.p-materias-para-amigos .p-materias-para-amigos-der .renglon-materia {
+  background: #E1EBF4;
+  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  padding: 15px 20px 15px 20px;
+  width: 700px;
+  margin-bottom: 15px;
+}
+
+.p-materias-para-amigos .p-materias-para-amigos-der .renglon-materia h3 {
+  margin: 0;
+  font-weight: normal;
+}
+
+.p-materias-para-amigos .p-materias-para-amigos-der .contenedor-vertical-tus-amigos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  height: 280px;
+  overflow-y: auto;
+  white-space: nowrap;
+  padding: 20px 0 20px 0;
+  background: #F7F7F7;
+  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25), 0px -4px 4px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25), 0px -4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.p-materias-para-amigos .p-materias-para-amigos-der .contenedor-horizontal-tus-amigos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 90%;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 20px 10px 10px 20px;
+  margin-bottom: 50px;
+  background: #F7F7F7;
+  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25), 0px -4px 4px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25), 0px -4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.p-grupo-amigos-materias {
+  display: none;
+}
+
+.p-grupo-amigos-materias .p-grupo-amigos-materias-der h1 {
+  margin: 30px;
+}
+
+.p-grupo-amigos-materias .p-grupo-amigos-materias-der .renglon-persona {
+  width: 300px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.p-grupo-amigos-materias .p-grupo-amigos-materias-der .renglon-persona img {
+  margin: 0;
+  margin-top: 15px;
+}
+
+.p-grupo-amigos-materias .p-grupo-amigos-materias-der .renglon-materia {
+  background: #E1EBF4;
+  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  padding: 15px 20px 15px 20px;
+  width: 600px;
+  margin-bottom: 15px;
+}
+
+.p-grupo-amigos-materias .p-grupo-amigos-materias-der .renglon-materia h3 {
+  margin: 0;
+  font-weight: normal;
+}
+
+.p-grupo-amigos-materias .p-grupo-amigos-materias-der .contenedor-vertical-grupo-amigos-materias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  height: 280px;
+  overflow-y: auto;
+  white-space: nowrap;
+  padding: 20px 0 20px 0;
+  background: #F7F7F7;
+  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25), 0px -4px 4px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25), 0px -4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.p-grupo-amigos-materias .p-grupo-amigos-materias-der .contenedor-horizontal-grupo-amigos-materias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 90%;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 20px 10px 10px 20px;
+  margin-bottom: 50px;
+  background: #F7F7F7;
+  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25), 0px -4px 4px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25), 0px -4px 4px rgba(0, 0, 0, 0.1);
+}
+/*# sourceMappingURL=style-main.css.map */
